@@ -1,4 +1,4 @@
-**Abstract:-**
+**Abstract:-**\
 We propose a novel graph-based framework for automatic surgical report generation that integrates graph similarity and contextual embedding techniques. Our model leverages SimGNN, a graph matching algorithm, to compute similarity scores between an input surgical scene graph and a set of template graphs annotated with captions. The input graph is concurrently processed by a Graph Attention Network (GAT), composed of two attention layers followed by a fully connected network (FCN). The FCN aggregates the GAT-derived embeddings and the caption embeddings from the top-k most similar template graphs (as determined by SimGNN), aligning them to the input dimensions of a pre-trained BERT model. These fused embeddings are then used to generate semantically rich captions through beam search decoding. Our architecture effectively combines structural similarity and learned semantic representations, enabling accurate and contextually appropriate report generation for robotic surgery scenarios.
 
 **Model training:-**
