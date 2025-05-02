@@ -39,19 +39,19 @@ python GMN.py \
 **Requirements:**
 **Environment Requirements**
   
-  Python >= 3.8 (Python 3.9+ recommended for latest PyTorch)
+  Python >= 3.8 (Python 3.9+ recommended for latest PyTorch)\
   CUDA compatible GPU (recommended for training)
   
 **Main Dependencies**
-  torch>=1.9.0
-  transformers>=4.12.0
-  torch-geometric>=2.3.0
-  numpy>=1.19.0
-  matplotlib>=3.3.0
-  tqdm>=4.50.0
-  nltk>=3.5
+  torch>=1.9.0\
+  transformers>=4.12.0\
+  torch-geometric>=2.3.0\
+  numpy>=1.19.0\
+  matplotlib>=3.3.0\
+  tqdm>=4.50.0\
+  nltk>=3.5\
 **PyTorch Geometric Dependencies**
-  PyTorch Geometric (PyG) requires additional dependencies for full functionality:
-  pyg-lib
-  torch-scatter
-  torch-sparse
+  PyTorch Geometric (PyG) requires additional dependencies for full functionality:\
+  pyg-lib\
+  torch-scatter\
+  torch-sparse\
